@@ -1,38 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
-  <head>
-    <title>Amanda Resume</title>
-  </head>
-  <body>
-   <h1>Amanda Jacobs
-   </h1>
-   <p>An introductory personal statement</p>
-   <h2> Education</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/challenge.css">
+</head>
 
-   <h3>Qualification 1</h3>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+<body>
+    <nav id="navbar">
+        <a class="nav-link" href="#services">Our Services</a> |
+        <a class="nav-link" href="#about">About Us</a> |
+        <a class="nav-link" href="projects">Project We Have Worked On</a>
+    </nav>
+    <header id="top">
+        <div>
+            <img id="header-image" src="./image/header-image.jpg" alt="header-image">
+        </div>
+        <div class="header-content">
+            <h1>Super Software</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis soluta, laboriosam similique corrupti
+                dolorem dignissimos placeat ullam doloremque iure doloribus quod. Id ad delectus facilis veniam,
+                accusantium error autem ex?
+            </p>
+            <button>Contact Us</button>
+            <button>View our services</button>
+        </div>
+    </header>
 
-   <h3>Qualification</h3>
+    <a id="back-to-top" href="#top">
+        <button >
+            &uarr;
+        </button>
+    </a>
 
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-   <h2> Experience</h2>
+    <main id="content">
 
-   <h3> Job 1</h3>
+        <section id="services" class="section">
+            <h2>
+                Development Services We Specialize in:
+            </h2>
+            <article class="service">
+                <h3> Web Development </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus nam voluptatem officiis
+                    quibusdam praesentium. Cupiditate sint aliquam minima sequi voluptatum qui, provident cum, maiores
+                    consectetur nam, beatae quam officia rerum!s
+                </p>
+            </article>
 
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <article class="service">
+                <h3> Mobile Development </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus nam voluptatem officiis
+                    quibusdam praesentium. Cupiditate sint aliquam minima sequi voluptatum qui, provident cum, maiores
+                    consectetur nam, beatae quam officia rerum!s
+                </p>
+            </article>
 
-   <h3>Job 2</h3>
+            <article class="service">
+                <h3> System Development </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus nam voluptatem officiis
+                    quibusdam praesentium. Cupiditate sint aliquam minima sequi voluptatum qui, provident cum, maiores
+                    consectetur nam, beatae quam officia rerum!s
+                </p>
+            </article>
+        </section>
 
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <section id="about" class="section">
+            <h2>
+                About Us:
+            </h2>
 
-   <h2>Skills</h2>
+            <div id="about-content">
 
-   <ul>
-    <li>Skills 1</li>
-    <li>Skills 2</li>
-    <li>Skills 3</li>
-    <li>Skills 4</li>
-   </ul>
-  </body>
+                <div>
+                    <h3>Founded</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio illum doloribus velit blanditiis
+                        deserunt
+                        vitae. Veniam modi nesciunt qui quo. Nam eveniet sint placeat facilis nulla soluta quidem vitae.
+                        Delectus!
+                    </p>
+                </div>
+
+                <div>
+                    <h3>
+                        Specializations
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui dolore similique corporis.
+                        Similique
+                        quis cum dolore repellat quod ipsum ex enim culpa sed, praesentium quia facere. Ex, dolorum
+                        nobis?
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+
+        </section>
+
+
+    </main>
+
+    <footer id="footer">
+        <nav id="footer-links">
+            <a class="nav-link" href="#services">Our Services</a> |
+            <a class="nav-link" href="#about">About Us</a> |
+            <a class="nav-link" href="projects">Project We Have Worked On</a>
+        </nav>
+        <h2>Super Software</h2>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit eum nulla hic harum vel eligendi natus fugiat
+            iusto quaerat pariatur nobis ea exercitationem enim ipsam unde perspiciatis, totam earum maiores.
+        </p>
+        <h4>
+            Socials:
+        </h4>
+        <p>
+            <button>LinkedIn</button>
+            <button>Facebook</button>
+            <button>Glassdoor</button>
+        </p>
+    </footer>
+</body>
+
 </html>
